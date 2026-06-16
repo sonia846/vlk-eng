@@ -1,0 +1,24 @@
+{
+    "framework_metadata": {
+        "tool_name": "Valkyrie-Simulation-Engine",
+        "version": "2.0.0",
+        "author": "Sonia",
+        "environment": "Isolated-Lab-Environment"
+    },
+    "network_settings": {
+        "listen_host": "127.0.0.1",
+        "admin_port": 3333,
+        "phish_port": 8080,
+        "use_tls": false
+    },
+    "database_settings": {
+        "engine": "sqlite3",
+        "storage_path": "./gophish.db",
+        "auto_vacuum": true
+    },
+    "security_compliance": {
+        "allow_external_routing": false,
+        "credential_logging_mode": "metadata_only",
+        "session_timeout_minutes": 30
+    }
+}
