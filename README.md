@@ -1,31 +1,29 @@
-# 🛠️ Valkyrie Simulation Engine
-## 🛡️ Academic Auditing & Compliance Framework
+# ⚔️ Valkyrie Multi-Module Simulation Suite
+## ⚡ Advanced Academic Auditing & Compliance Framework
+
 ![Language](https://img.shields.io/badge/LANGUAGE-PYTHON%203-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Platform](https://img.shields.io/badge/PLATFORM-KALI%20LINUX-green?style=for-the-badge&logo=kali-linux&logoColor=white)
-![Framework](https://img.shields.io/badge/FRAMEWORK-VALKYRIE-red?style=for-the-badge)
-![License](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge)
-An advanced, automated environment configuration auditing and local infrastructure tracking framework engineered to maintain strict telemetry boundaries.
----
-## 🚀 Features
-* **Integrity Validation:** Enforces secure build checks before runtime execution.
-* **Dynamic Configuration Parsing:** Audits isolated network and database settings dynamically.
-* **Multi-Format Reporting:** Automatically generates telemetry reports in `.txt`, `.json`, and `.doc` formats.
----
-## 📋 Project Configuration & Telemetry
-The core execution parameters are maintained within the dynamic infrastructure registry.
-### Operational Registry Check
+![Architecture](https://img.shields.io/badge/ARCHITECTURE-MULTILAYER--MODULAR-red?style=for-the-badge&logo=dependencycheck&logoColor=white)
 
-| Parameter | Value | Scope / Intent |
-| :--- | :--- | :--- |
-| **Tool Name** | Valkyrie-Simulation-Engine | Dedicated Core Framework Identifier |
-| **Framework Version** | 2.0.0 | Current Stable Release Environment |
-| **Lead Developer** | Sonia | Cybersecurity Specialist Signature Registry |
-| **Lab Environment** | Isolated-Lab-Environment | Hardcoded Localhost Loopback Boundaries |
-| **Database Engine** | SQLite3 System | Local Database Telemetry Logging |
+An enterprise-grade modular infrastructure simulation framework engineered in Kali Linux. This suite is refactored into decoupled architectural layers to optimize local telemetry monitoring, local database simulation, and compliance reporting pipelines.
 
 ---
-## ⚙️ Installation & Deployment
-### 1. Clone the Architecture
-```bash
-git clone [https://github.com/sonia846/Valkyrie-Simulation-Engine.git](https://github.com/sonia846/Valkyrie-Simulation-Engine.git)
-cd Valkyrie-Simulation-Engine
+
+## 📂 System Architecture Diagram
+
+
+The project framework components are organized into specialized sub-directories for maximum scalability:
+
+```text
+vlk-eng/
+├── core/
+│   └── engine.py       # Core logic initialization & telemetry isolation
+├── modules/
+│   └── scanner.py      # Environment parameters & vulnerability registry scanner
+├── utils/
+│   └── reporter.py     # Multi-format reporting & automated log exporter
+├── tests/
+│   └── test_core.py    # Execution unit tests verification
+├── main.py             # Central controller integration layer
+├── config.json         # Runtime lab configuration matrix
+└── requirements.txt    # Python package manifest
